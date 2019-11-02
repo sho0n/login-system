@@ -5,6 +5,8 @@
   "main": "server.js",
   "private": true,
   "dependencies": {
+    "@types/is-empty": "^1.2.0",
+    "@types/validator": "^10.11.3",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "concurrently": "^5.0.0",
