@@ -14,10 +14,10 @@ const UserSchema = new Schema({
         type: String,
         required: true
     },
-    date: {
-        type: Date,
-        required: Date.now
-    }
+    // date: {
+    //     type: Date,
+    //     required: Date.now
+    // }
 });
 
-module.exports = User = mongoose.mnodel("users", UserSchema);
+module.exports = User = mongoose.model("users", UserSchema);

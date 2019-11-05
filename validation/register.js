@@ -39,7 +39,7 @@ if(Validator.isEmpty(data.password)) {
 if(Validator.isEmpty(data.password2)) {
     errors.password2 = 'Confirm password is required';
 }
-if(!Validator.isLength(data.password, {min: 6, max: 22})) {
+if(!Validator.isLength(data.password, { min: 6, max: 22 })) {
     errors.password = 'Password must be at least 6 characters';
 }
 if(!Validator.equals(data.password, data.password2)) {
